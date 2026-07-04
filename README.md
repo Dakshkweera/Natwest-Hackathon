@@ -1,4 +1,4 @@
-# Multi Agent Conversational AI that Keeps your data safe and secure
+# Multi Agent Conversational AI that Keeps your data safe and secure.
 
 **NatWest Code for Purpose Hackathon 2026 | Talk to Data**
 
