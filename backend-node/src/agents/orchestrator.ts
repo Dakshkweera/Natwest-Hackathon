@@ -220,6 +220,7 @@ export async function processQuestion(
   const result = primaryResult;
 
   // Step 3: Legacy web context (LLM-flagged, not user-toggled)
+  // this thing is about whether your query need seach agent or not, dispite not toggling on.
   let webResults: WebResult[] = result.web_results ?? parallelWebResults;
   if (needsWeb && category !== 'web_search' && !webSearchToggle) {
     try {
