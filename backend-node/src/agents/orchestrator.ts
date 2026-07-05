@@ -154,7 +154,7 @@ export async function processQuestion(
   options: Record<string, any> = {},
 ): Promise<ChatResponse> {
   const schema = getCombinedSchema(session);
-  const semanticLayer = session.semanticLayer;
+  const semanticLayer = session.semanticLayer; // custom formulas which we made
   const includeChart = options.include_chart !== false;
   const includeWeb = options.include_web_search !== false;
   const webSearchToggle = options.web_search === true;
